@@ -6,8 +6,8 @@
       <class name="com.tia.cucumber.step_definitions.RunnerTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.tia.cucumber.step_definitions.RunnerTest -->
     </classes>

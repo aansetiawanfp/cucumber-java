@@ -17,9 +17,34 @@ public class Constants {
  	public static final String pathShop = "/shop/";
  // Parameter Url - end
  	
+// 	Skenario TestLogin - start
+ 	public static final String testLoginWhen = "User go to Website";
+ 	public static final String testLoginAndOne = "User enter username";
+ 	public static final String testLoginAndTwo = "User enter password";
+ 	public static final String testLoginAndThree = "User click remember me";
+ 	public static final String testLoginAndFour = "User click button login";
+ 	public static final String testLoginThen = "User valid credentials";
+// 	Skenario TestLogin - end
+ 	
+// 	Skenario TestOrderProduct - start
+ 	public static final String testOrderProductWhen = "User go to Website Shop";
+ 	public static final String testOrderProductAndOne = "User select the product";
+ 	public static final String testOrderProductAndTwo = "User select the color and size";
+ 	public static final String testOrderProductAndThree = "User add quantity";
+ 	public static final String testOrderProductAndFour = "User click ADD TO CART button";
+ 	public static final String testOrderProductAndFive = "User click VIEW CART button";
+ 	public static final String testOrderProductAndSix = "User click PROCCED TO CHECKOUT button";
+ 	public static final String testOrderProductAndSeven = "User input name";
+ 	public static final String testOrderProductAndEight = "User input address";
+ 	public static final String testOrderProductAndNine = "User input contact";
+ 	public static final String testOrderProductAndTen = "User click TnC checkbox";
+ 	public static final String testOrderProductAndEleven = "User click PLACE ORDER";
+ 	public static final String testOrderProductThen = "The order is succeed";
+// 	Skenario TestOrderProduct - end
+ 	
  // Parameter data input - start
- 	public static final String username = "aansetiawan";
- 	public static final String password = "TIAFaspayQA2023";
+ 	public static final String username = "aanfaspay";
+ 	public static final String password = "aanfaspay10@gmail.com";
  	public static final String firstName = "aan";
  	public static final String lastName = "setiawan";
  	public static final String streetAddress = "Jalan Pintu Air";
@@ -66,5 +91,4 @@ public class Constants {
  	public static final String expectedViewCart = "PROCEED TO CHECKOUT";
  	public static final String expectedOrderDone = "Thank you. Your order has been received.";
  //Expected Result - end
-	
 }

@@ -108,7 +108,7 @@ public class OrderProductPage {
 	}
 	public void inputContanct() {
 		inputPhone.sendKeys(Constants.phone);
-		inputEmail.sendKeys(Constants.email);
+//		inputEmail.sendKeys(Constants.email);
 	}
 	public void clickcheckTnC() {
 		checkTnC.click();
