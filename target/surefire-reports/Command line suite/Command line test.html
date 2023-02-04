@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Command line test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Command line test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 04 23:32:18 WIB 2023</td>
+<td>Started on:</td><td>Sat Feb 04 23:29:10 WIB 2023</td>
 </tr>
-<tr><td>Total time:</td><td>48 seconds (48342 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41234 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,25 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tia.cucumber.step_definitions.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.tia.cucumber.step_definitions.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User create order success", "Order Product"</td>
+<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at com.tia.cucumber.step_definitions.Hooks.setUp(Hooks.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1991075605", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1991075605'><pre>java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at com.tia.cucumber.step_definitions.Hooks.setUp(Hooks.java:33)
+</pre></div></td>
+<td>0</td>
+<td>com.tia.cucumber.step_definitions.RunnerTest@2aece37d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,15 +95,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.tia.cucumber.step_definitions.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.tia.cucumber.step_definitions.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User create order success", "Order Product"</td>
+<td title='com.tia.cucumber.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.tia.cucumber.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User valid login", "Login User"</td>
 <td></td>
-<td>28</td>
-<td>com.tia.cucumber.step_definitions.RunnerTest@29215f06</td></tr>
+<td>18</td>
+<td>com.tia.cucumber.RunnerTest@55ca8de8</td></tr>
 <tr>
 <td title='com.tia.cucumber.step_definitions.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.tia.cucumber.step_definitions.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User valid login", "Login User"</td>
 <td></td>
-<td>16</td>
-<td>com.tia.cucumber.step_definitions.RunnerTest@29215f06</td></tr>
+<td>15</td>
+<td>com.tia.cucumber.step_definitions.RunnerTest@2aece37d</td></tr>
 </table><p>
 </body>
 </html>
